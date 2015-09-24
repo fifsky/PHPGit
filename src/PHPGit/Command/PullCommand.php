@@ -43,9 +43,7 @@ class PullCommand extends Command
             }
         }
 
-        $this->git->run($builder->getProcess());
-
-        return true;
+        return $this->git->run($builder->getProcess());
     }
 
     /**
