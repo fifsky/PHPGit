@@ -20,7 +20,7 @@ Update your composer.json and run `composer update`
 ``` json
 {
     "require": {
-        "fifsky/PHPgit": "dev-master"
+        "fifsky/phpgit": "dev-master"
     }
 }
 ```
